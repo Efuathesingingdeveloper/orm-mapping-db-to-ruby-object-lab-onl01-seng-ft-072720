@@ -54,6 +54,6 @@ class Student
     sql = "DROP TABLE IF EXISTS students"
     DB[:conn].execute(sql)
   end
-  
+end 
  
 
